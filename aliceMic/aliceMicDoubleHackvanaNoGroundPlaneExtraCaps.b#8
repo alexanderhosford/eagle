@@ -1827,19 +1827,17 @@ design rules under a new name.</description>
 <contactref element="T2" pad="B"/>
 <contactref element="C3" pad="1"/>
 <contactref element="C8" pad="2"/>
-<wire x1="9.75" y1="1.25" x2="9" y2="2" width="0.1524" layer="16"/>
-<wire x1="13.5" y1="1.25" x2="9.75" y2="1.25" width="0.1524" layer="16"/>
-<wire x1="9" y1="2" x2="8.8" y2="2.21" width="0.1524" layer="16"/>
-<wire x1="17" y1="1.25" x2="17.25" y2="1.5" width="0.1524" layer="16"/>
-<wire x1="13.5" y1="1.25" x2="17" y2="1.25" width="0.1524" layer="16"/>
-<wire x1="17.25" y1="1.5" x2="17.44" y2="1.6" width="0.1524" layer="16"/>
-<wire x1="13.5" y1="1.25" x2="13.5" y2="1.23" width="0.1524" layer="16"/>
-<wire x1="35.25" y1="3" x2="37.75" y2="5.5" width="0.1524" layer="16"/>
-<wire x1="21.5" y1="3" x2="35.25" y2="3" width="0.1524" layer="16"/>
-<wire x1="20.25" y1="1.75" x2="21.5" y2="3" width="0.1524" layer="16"/>
-<wire x1="17.5" y1="1.75" x2="20.25" y2="1.75" width="0.1524" layer="16"/>
-<wire x1="37.75" y1="5.5" x2="37.85" y2="5.57" width="0.1524" layer="16"/>
-<wire x1="17.5" y1="1.75" x2="17.44" y2="1.6" width="0.1524" layer="16"/>
+<wire x1="8.8" y1="2.21" x2="10.01" y2="1" width="0.4064" layer="16" curve="90"/>
+<wire x1="10.01" y1="1" x2="13.27" y2="1" width="0.4064" layer="16"/>
+<wire x1="13.27" y1="1" x2="13.5" y2="1.23" width="0.4064" layer="16" curve="90"/>
+<wire x1="13.5" y1="1.23" x2="17.07" y2="1.23" width="0.4064" layer="16"/>
+<wire x1="17.07" y1="1.23" x2="17.44" y2="1.6" width="0.4064" layer="16" curve="90"/>
+<wire x1="17.44" y1="1.6" x2="20.9690375" y2="1.6" width="0.4064" layer="16"/>
+<wire x1="20.9690375" y1="1.6" x2="23.753265625" y2="2.753265625" width="0.4064" layer="16" curve="45"/>
+<wire x1="23.753265625" y1="2.753265625" x2="25.556040625" y2="3.5" width="0.4064" layer="16" curve="-45"/>
+<wire x1="25.556040625" y1="3.5" x2="33.506409375" y2="3.5" width="0.4064" layer="16"/>
+<wire x1="33.506409375" y1="3.5" x2="37.387671875" y2="5.107671875" width="0.4064" layer="16" curve="45.000023"/>
+<wire x1="37.387671875" y1="5.107671875" x2="37.85" y2="5.57" width="0.4064" layer="16"/>
 </signal>
 <signal name="N$10">
 <contactref element="R1" pad="2"/>
