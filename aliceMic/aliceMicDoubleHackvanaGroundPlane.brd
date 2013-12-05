@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="19.6850394" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
+<grid distance="0.500000001" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -120,10 +120,10 @@
 <wire x1="50" y1="17.5" x2="50" y2="0" width="0" layer="20"/>
 <wire x1="50" y1="0" x2="0" y2="0" width="0" layer="20"/>
 <wire x1="0" y1="0" x2="0" y2="17.5" width="0" layer="20"/>
-<hole x="2.5" y="2.5" drill="3.2"/>
-<hole x="2.5" y="15" drill="3.2"/>
-<hole x="47.5" y="15" drill="3.2"/>
-<hole x="47.5" y="2.5" drill="3.2"/>
+<hole x="2.5" y="2.5" drill="2.5"/>
+<hole x="2.5" y="15" drill="2.5"/>
+<hole x="47.5" y="15" drill="2.5"/>
+<hole x="47.5" y="2.5" drill="2.5"/>
 <text x="0.575" y="4.925" size="0.8128" layer="27" font="vector" ratio="16">1GΩ</text>
 <text x="0.7" y="10.975" size="0.8128" layer="27" font="vector" ratio="16">FET
  D</text>
