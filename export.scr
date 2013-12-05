@@ -1,0 +1,6 @@
+DISPLAY ALL
+RATSNEST
+DISPLAY None
+DISPLAY Bottom Pads Vias holes
+EXPORT IMAGE /Users/panda/Desktop/board.png MONOCHROME 2400;
+DISPLAY Top Unrouted Dimension tPlace holes pads

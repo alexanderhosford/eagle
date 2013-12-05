@@ -1,0 +1,6 @@
+DISPLAY ALL
+RATSNEST
+DISPLAY None
+DISPLAY Top Bottom Pad Vias
+EXPORT IMAGE C:\eagleOuput.png MONOCHROME 600;
+DISPLAY Top Unrouted Dimension tPLace bPlace

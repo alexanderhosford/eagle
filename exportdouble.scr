@@ -1,0 +1,9 @@
+DISPLAY ALL
+RATSNEST
+DISPLAY None
+DISPLAY Bottom Pad Vias Dimension Holes
+EXPORT IMAGE /Users/panda/Desktop/boardBottom.png MONOCHROME 1200;
+DISPLAY None
+DISPLAY Top Pad Vias Dimension Holes
+EXPORT IMAGE /Users/panda/Desktop/boardTop.png MONOCHROME 1200;
+DISPLAY Bottom Top Unrouted Dimension tPLace tNames tOrigins bPlace bNames bOrigins
