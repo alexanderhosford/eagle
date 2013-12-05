@@ -129,9 +129,12 @@
  D</text>
 <text x="0.65" y="7.625" size="0.8128" layer="27" font="vector" ratio="16">FET
  S</text>
-<text x="43.5" y="20" size="0.8128" layer="27" font="vector" ratio="16">XLR1</text>
-<text x="29" y="20.5" size="0.8128" layer="27" font="vector" ratio="16">XLR2</text>
-<text x="36.5" y="19.5" size="0.8128" layer="27" font="vector" ratio="16">XLR3</text>
+<text x="48.5" y="7.5" size="0.8128" layer="27" font="vector" ratio="16" rot="R90">XLR
+ 1</text>
+<text x="48.5" y="4.5" size="0.8128" layer="27" font="vector" ratio="16" rot="R90">XLR
+ 2</text>
+<text x="48.5" y="10" size="0.8128" layer="27" font="vector" ratio="16" rot="R90">XLR
+ 3</text>
 </plain>
 <libraries>
 <library name="resistor">

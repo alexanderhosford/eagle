@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.500000001" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
+<grid distance="19.6850394" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -124,6 +124,12 @@
 <hole x="2.5" y="15" drill="3.2"/>
 <hole x="47.5" y="15" drill="3.2"/>
 <hole x="47.5" y="2.5" drill="3.2"/>
+<text x="0.575" y="4.925" size="0.8128" layer="27" font="vector" ratio="16">1GΩ</text>
+<text x="0.7" y="10.975" size="0.8128" layer="27" font="vector" ratio="16">FET
+ D</text>
+<text x="0.65" y="7.625" size="0.8128" layer="27" font="vector" ratio="16">FET
+ S</text>
+<text x="49" y="7.5" size="1.016" layer="27" font="vector" ratio="13" rot="R90">XLR</text>
 </plain>
 <libraries>
 <library name="resistor">
@@ -1871,4 +1877,10 @@ design rules under a new name.</description>
 </signals>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>

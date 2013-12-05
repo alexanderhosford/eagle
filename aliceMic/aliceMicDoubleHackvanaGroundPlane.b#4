@@ -129,11 +129,11 @@
  D</text>
 <text x="0.65" y="7.625" size="0.8128" layer="27" font="vector" ratio="16">FET
  S</text>
-<text x="48.5" y="7.5" size="0.8128" layer="27" font="vector" ratio="16" rot="R90">XLR
+<text x="47.55" y="10" size="0.8128" layer="27" font="vector" ratio="16" rot="R270">XLR
  1</text>
-<text x="48.5" y="4.5" size="0.8128" layer="27" font="vector" ratio="16" rot="R90">XLR
+<text x="49.6" y="4.575" size="0.8128" layer="27" font="vector" ratio="16" rot="R90">XLR
  2</text>
-<text x="48.5" y="10" size="0.8128" layer="27" font="vector" ratio="16" rot="R90">XLR
+<text x="49.6" y="10.95" size="0.8128" layer="27" font="vector" ratio="16" rot="R90">XLR
  3</text>
 </plain>
 <libraries>
