@@ -16277,6 +16277,9 @@ Source: http://focus.ti.com/lit/ds/symlink/ne5534.pdf</description>
 <part name="PAD31" library="SparkFun" deviceset="M01" device="PTH_2MM" value="Hi G wiper"/>
 <part name="PAD32" library="SparkFun" deviceset="M01" device="PTH_2MM" value="Hi G pin1"/>
 <part name="IC6" library="linear" deviceset="TL071" device="P"/>
+<part name="C21" library="resistor" deviceset="C-EU" device="050-025X075" value="100n"/>
+<part name="C22" library="resistor" deviceset="C-EU" device="050-025X075" value="100n"/>
+<part name="C23" library="resistor" deviceset="C-EU" device="050-025X075" value="100nF"/>
 </parts>
 <sheets>
 <sheet>
@@ -16316,7 +16319,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ne5534.pdf</description>
 <instance part="R16" gate="G$1" x="-340.36" y="96.52"/>
 <instance part="R25" gate="G$1" x="-215.9" y="58.42" rot="R180"/>
 <instance part="C3" gate="G$1" x="-320.04" y="83.82" rot="R90"/>
-<instance part="C16" gate="G$1" x="-71.12" y="66.04"/>
+<instance part="C16" gate="G$1" x="-48.26" y="66.04"/>
 <instance part="C4" gate="G$1" x="-287.02" y="63.5" rot="R270"/>
 <instance part="C6" gate="G$1" x="-256.54" y="7.62" rot="R180"/>
 <instance part="C5" gate="G$1" x="-287.02" y="50.8" rot="R270"/>
@@ -16365,8 +16368,8 @@ Source: http://focus.ti.com/lit/ds/symlink/ne5534.pdf</description>
 <instance part="R28" gate="G$1" x="-170.18" y="-17.78" rot="R90"/>
 <instance part="R37" gate="G$1" x="-53.34" y="-17.78" rot="R90"/>
 <instance part="R26" gate="G$1" x="-198.12" y="50.8" rot="R90"/>
-<instance part="C11" gate="G$1" x="-157.48" y="50.8"/>
-<instance part="C14" gate="G$1" x="-111.76" y="60.96"/>
+<instance part="C11" gate="G$1" x="-157.48" y="45.72"/>
+<instance part="C14" gate="G$1" x="-124.46" y="66.04"/>
 <instance part="C20" gate="G$1" x="17.78" y="60.96"/>
 <instance part="PAD4" gate="G$1" x="-190.5" y="12.7"/>
 <instance part="PAD5" gate="G$1" x="-187.96" y="2.54" rot="MR0"/>
@@ -16398,6 +16401,9 @@ Source: http://focus.ti.com/lit/ds/symlink/ne5534.pdf</description>
 <instance part="PAD31" gate="G$1" x="-5.08" y="17.78" rot="R180"/>
 <instance part="PAD32" gate="G$1" x="7.62" y="12.7" rot="MR0"/>
 <instance part="IC6" gate="A" x="-248.92" y="55.88"/>
+<instance part="C21" gate="G$1" x="-167.64" y="66.04"/>
+<instance part="C22" gate="G$1" x="-124.46" y="43.18"/>
+<instance part="C23" gate="G$1" x="-15.24" y="43.18"/>
 </instances>
 <busses>
 </busses>
@@ -16427,32 +16433,29 @@ Source: http://focus.ti.com/lit/ds/symlink/ne5534.pdf</description>
 <junction x="-259.08" y="101.6"/>
 <pinref part="IC4" gate="A" pin="V+"/>
 <wire x1="-129.54" y1="60.96" x2="-129.54" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="-129.54" y1="71.12" x2="-111.76" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-129.54" y1="71.12" x2="-124.46" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="P" pin="V+"/>
 <wire x1="-175.26" y1="63.5" x2="-175.26" y2="71.12" width="0.1524" layer="91"/>
 <junction x="-129.54" y="71.12"/>
-<wire x1="-175.26" y1="71.12" x2="-157.48" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="-157.48" y1="71.12" x2="-129.54" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="C11" gate="G$1" pin="1"/>
-<wire x1="-157.48" y1="53.34" x2="-157.48" y2="71.12" width="0.1524" layer="91"/>
-<junction x="-157.48" y="71.12"/>
+<wire x1="-175.26" y1="71.12" x2="-167.64" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="-111.76" y1="63.5" x2="-111.76" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-167.64" y1="71.12" x2="-129.54" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-124.46" y1="68.58" x2="-124.46" y2="71.12" width="0.1524" layer="91"/>
 <junction x="-175.26" y="71.12"/>
-<wire x1="-111.76" y1="71.12" x2="-71.12" y2="71.12" width="0.1524" layer="91"/>
-<junction x="-111.76" y="71.12"/>
+<wire x1="-124.46" y1="71.12" x2="-48.26" y2="71.12" width="0.1524" layer="91"/>
+<junction x="-124.46" y="71.12"/>
 <pinref part="IC5" gate="A" pin="V+"/>
 <wire x1="-55.88" y1="63.5" x2="-55.88" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="C16" gate="G$1" pin="1"/>
-<wire x1="-55.88" y1="71.12" x2="-71.12" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="-71.12" y1="71.12" x2="-71.12" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="71.12" x2="-48.26" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-48.26" y1="71.12" x2="-48.26" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="VE+/-" gate="G$1" pin="3"/>
 <wire x1="30.48" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="60.96" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="66.04" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="71.12" x2="-55.88" y2="71.12" width="0.1524" layer="91"/>
 <junction x="-55.88" y="71.12"/>
-<junction x="-71.12" y="71.12"/>
+<junction x="-48.26" y="71.12"/>
 <pinref part="C20" gate="G$1" pin="+"/>
 <wire x1="17.78" y1="63.5" x2="17.78" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
@@ -16460,6 +16463,9 @@ Source: http://focus.ti.com/lit/ds/symlink/ne5534.pdf</description>
 <pinref part="IC6" gate="A" pin="V+"/>
 <wire x1="-251.46" y1="63.5" x2="-251.46" y2="101.6" width="0.1524" layer="91"/>
 <junction x="-251.46" y="101.6"/>
+<pinref part="C21" gate="G$1" pin="1"/>
+<wire x1="-167.64" y1="71.12" x2="-167.64" y2="68.58" width="0.1524" layer="91"/>
+<junction x="-167.64" y="71.12"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -16502,7 +16508,8 @@ Source: http://focus.ti.com/lit/ds/symlink/ne5534.pdf</description>
 <pinref part="PAD2" gate="G$1" pin="1"/>
 <wire x1="-441.96" y1="2.54" x2="-441.96" y2="5.08" width="0.1524" layer="91"/>
 <junction x="-441.96" y="2.54"/>
-<wire x1="-223.52" y1="2.54" x2="-218.44" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="-223.52" y1="2.54" x2="-220.98" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="-220.98" y1="2.54" x2="-218.44" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="-218.44" y1="2.54" x2="-218.44" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="-223.52" y="2.54"/>
 <wire x1="27.94" y1="-40.64" x2="-35.56" y2="-40.64" width="0.1524" layer="91"/>
@@ -16559,6 +16566,28 @@ Source: http://focus.ti.com/lit/ds/symlink/ne5534.pdf</description>
 <wire x1="-259.08" y1="22.86" x2="-269.24" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="-269.24" y1="22.86" x2="-269.24" y2="2.54" width="0.1524" layer="91"/>
 <junction x="-269.24" y="2.54"/>
+<pinref part="C21" gate="G$1" pin="2"/>
+<wire x1="-167.64" y1="60.96" x2="-220.98" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-220.98" y1="60.96" x2="-220.98" y2="2.54" width="0.1524" layer="91"/>
+<junction x="-220.98" y="2.54"/>
+<pinref part="C11" gate="G$1" pin="1"/>
+<wire x1="-157.48" y1="48.26" x2="-157.48" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-157.48" y1="50.8" x2="-152.4" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-152.4" y1="50.8" x2="-152.4" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-152.4" y1="30.48" x2="-160.02" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-160.02" y1="30.48" x2="-215.9" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-215.9" y1="30.48" x2="-215.9" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="-215.9" y1="2.54" x2="-218.44" y2="2.54" width="0.1524" layer="91"/>
+<junction x="-218.44" y="2.54"/>
+<pinref part="C22" gate="G$1" pin="1"/>
+<wire x1="-124.46" y1="45.72" x2="-104.14" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-104.14" y1="45.72" x2="-104.14" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-104.14" y1="30.48" x2="-152.4" y2="30.48" width="0.1524" layer="91"/>
+<junction x="-152.4" y="30.48"/>
+<pinref part="C14" gate="G$1" pin="2"/>
+<wire x1="-124.46" y1="60.96" x2="-160.02" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-160.02" y1="60.96" x2="-160.02" y2="30.48" width="0.1524" layer="91"/>
+<junction x="-160.02" y="30.48"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -17200,17 +17229,14 @@ Source: http://focus.ti.com/lit/ds/symlink/ne5534.pdf</description>
 <segment>
 <pinref part="IC4" gate="A" pin="V-"/>
 <wire x1="-129.54" y1="45.72" x2="-129.54" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="-129.54" y1="35.56" x2="-111.76" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="P" pin="V-"/>
 <wire x1="-175.26" y1="48.26" x2="-175.26" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="-175.26" y1="35.56" x2="-157.48" y2="35.56" width="0.1524" layer="91"/>
 <junction x="-129.54" y="35.56"/>
 <wire x1="-157.48" y1="35.56" x2="-129.54" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="2"/>
-<wire x1="-157.48" y1="45.72" x2="-157.48" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-157.48" y1="40.64" x2="-157.48" y2="35.56" width="0.1524" layer="91"/>
 <junction x="-157.48" y="35.56"/>
-<pinref part="C14" gate="G$1" pin="2"/>
-<wire x1="-111.76" y1="55.88" x2="-111.76" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="-175.26" y1="35.56" x2="-218.44" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="-218.44" y1="35.56" x2="-218.44" y2="15.24" width="0.1524" layer="91"/>
 <junction x="-175.26" y="35.56"/>
@@ -17234,8 +17260,6 @@ Source: http://focus.ti.com/lit/ds/symlink/ne5534.pdf</description>
 <junction x="-419.1" y="15.24"/>
 <wire x1="-218.44" y1="15.24" x2="-256.54" y2="15.24" width="0.1524" layer="91"/>
 <junction x="-256.54" y="15.24"/>
-<pinref part="C16" gate="G$1" pin="2"/>
-<wire x1="-71.12" y1="60.96" x2="-71.12" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="A" pin="V-"/>
 <wire x1="-55.88" y1="48.26" x2="-55.88" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="VE+/-" gate="G$1" pin="2"/>
@@ -17243,10 +17267,8 @@ Source: http://focus.ti.com/lit/ds/symlink/ne5534.pdf</description>
 <wire x1="25.4" y1="58.42" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="53.34" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="-55.88" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="-111.76" y1="35.56" x2="-71.12" y2="35.56" width="0.1524" layer="91"/>
-<junction x="-111.76" y="35.56"/>
-<junction x="-71.12" y="35.56"/>
-<wire x1="-71.12" y1="35.56" x2="-55.88" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-129.54" y1="35.56" x2="-124.46" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-124.46" y1="35.56" x2="-55.88" y2="35.56" width="0.1524" layer="91"/>
 <junction x="-55.88" y="35.56"/>
 <pinref part="C20" gate="G$1" pin="-"/>
 <wire x1="17.78" y1="55.88" x2="17.78" y2="53.34" width="0.1524" layer="91"/>
@@ -17256,6 +17278,9 @@ Source: http://focus.ti.com/lit/ds/symlink/ne5534.pdf</description>
 <wire x1="-251.46" y1="48.26" x2="-248.92" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="-248.92" y1="48.26" x2="-248.92" y2="15.24" width="0.1524" layer="91"/>
 <junction x="-248.92" y="15.24"/>
+<pinref part="C22" gate="G$1" pin="2"/>
+<wire x1="-124.46" y1="38.1" x2="-124.46" y2="35.56" width="0.1524" layer="91"/>
+<junction x="-124.46" y="35.56"/>
 </segment>
 </net>
 <net name="N$1" class="0">
